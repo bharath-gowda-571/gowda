@@ -2,33 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/</loc>
+    <loc>https://bharath-gowda-571.github.io/gowda/</loc>
     <lastmod>2012-04-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/hello/</loc>
+    <loc>https://bharath-gowda-571.github.io/gowda/tags/hello/</loc>
     <lastmod>2012-04-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/</loc>
+    <loc>https://bharath-gowda-571.github.io/gowda/posts/</loc>
     <lastmod>2012-04-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/abc/</loc>
+    <loc>https://bharath-gowda-571.github.io/gowda/posts/abc/</loc>
     <lastmod>2012-04-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/2/</loc>
+    <loc>https://bharath-gowda-571.github.io/gowda/posts/2/</loc>
     <lastmod>2012-04-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/4/</loc>
+    <loc>https://bharath-gowda-571.github.io/gowda/posts/4/</loc>
     <lastmod>2012-04-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/3/</loc>
+    <loc>https://bharath-gowda-571.github.io/gowda/posts/3/</loc>
     <lastmod>2012-04-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>https://bharath-gowda-571.github.io/gowda/tags/</loc>
     <lastmod>2012-04-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/world/</loc>
+    <loc>https://bharath-gowda-571.github.io/gowda/tags/world/</loc>
     <lastmod>2012-04-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>https://bharath-gowda-571.github.io/gowda/categories/</loc>
   </url>
 </urlset>
