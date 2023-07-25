@@ -1,3 +1,4 @@
+var baseURLRelBeginning="/gowda"
 document.addEventListener("DOMContentLoaded", function (event) {
     var syntax_import = document.getElementById("syntax-css")
     var settings = JSON.parse(localStorage.getItem('settings'));
@@ -9,7 +10,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
             checkbox.checked = false
             body[0].classList.toggle("light")
             if (syntax_import !== null) {
-                syntax_import.innerHTML = "<link rel='stylesheet' href='/css/syntax-light.css'>"
+
+                syntax_import.innerHTML = `<link rel='stylesheet' href='${baseURLRelBeginning}/css/syntax-light.css'>`
             }
         }
     }
@@ -63,14 +65,14 @@ function toggleDarkAndLightMode() {
     if (body.classList.contains('light')) {
         settings['light_or_dark'] = 'dark'
         if (syntax_import !== null) {
-            syntax_import.innerHTML = "<link rel='stylesheet' href='/css/syntax-dark.css'>"
+            syntax_import.innerHTML = `<link rel='stylesheet' href='${baseURLRelBeginning}/css/syntax-dark.css'>`
         }
     }
     else {
 
         settings['light_or_dark'] = 'light'
         if (syntax_import !== null) {
-            syntax_import.innerHTML = "<link rel='stylesheet' href='/css/syntax-light.css'>"
+            syntax_import.innerHTML = `<link rel='stylesheet' href='${baseURLRelBeginning}/css/syntax-light.css'>`
 
         }
 
