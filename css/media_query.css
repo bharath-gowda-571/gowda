@@ -330,6 +330,9 @@
     gap: 5rem;
     padding-bottom: 0;
   }
+  .proj-img{
+    width: 50rem;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */

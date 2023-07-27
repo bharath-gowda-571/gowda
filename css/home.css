@@ -332,20 +332,23 @@ input[type="radio"]:checked {
 }
 
 .technologies {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
   flex-direction: row;
   gap: 1.6rem;
+  width: fit-content;
 }
 
 .technology {
   display: flex;
   background-color: var(--secondary-color);
   min-width: 10rem;
-  height: 3.4rem;
+  min-height: 3.4rem;
   justify-content: center;
   align-items: center;
   font-size: 1.8rem;
   border-radius: 0.5rem;
+  padding: 0 2rem;
 }
 
 .project-description {
@@ -386,12 +389,17 @@ input[type="radio"]:checked {
   gap: 2.5rem;
 }
 
-.project-CTA button {
+.project-CTA a {
   height: 5rem;
   min-width: 15rem;
   border-radius: 10rem;
   font-size: 1.6rem;
   font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .CTA-primary {
