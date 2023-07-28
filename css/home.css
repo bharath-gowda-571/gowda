@@ -244,6 +244,7 @@ html {
   line-height: 4rem;
   font-weight: 500;
   font-size: 1.8rem;
+  width: 100%;
 }
 
 input[type="radio"] {
@@ -260,7 +261,9 @@ input[type="radio"] {
   background-color: var(--bg-color);
   border-radius: 50%;
 }
-
+input[type="radio"]:hover{
+  cursor: pointer;
+}
 /* appearance for checked radiobutton */
 input[type="radio"]:checked {
   background-color: var(--primary-color);
@@ -268,7 +271,7 @@ input[type="radio"]:checked {
 
 #github,
 #linkedin,
-#mail {
+.mail {
   fill: var(--primary-color);
 }
 
@@ -392,6 +395,7 @@ input[type="radio"]:checked {
 .project-CTA a {
   height: 5rem;
   min-width: 15rem;
+  padding: 0 2rem;
   border-radius: 10rem;
   font-size: 1.6rem;
   font-weight: 700;
@@ -657,4 +661,15 @@ input[type="radio"]:checked {
 
 .post a{
   color: var(--primary-color);
+}
+.color-primary{
+  color: var(--primary-color);
+}
+
+.button-animation{
+  transition: box-shadow 300ms linear;
+}
+
+.button-animation:hover{
+  box-shadow: 0px 0px 40px -10px var(--primary-color);
 }
