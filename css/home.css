@@ -752,4 +752,11 @@ input[type="radio"]:checked {
 .post table {
   margin: 0 auto;
   margin-bottom: 3rem;
+  overflow-x: scroll;
+  display: block;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  margin: 0 auto;
+  overflow-x: auto;
+  white-space: nowrap;
 }
